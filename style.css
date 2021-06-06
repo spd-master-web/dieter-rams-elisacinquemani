@@ -1,0 +1,18 @@
+
+h1 {
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#imgLogo {
+  width: 5%;
+}
