@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-header, main {
-  padding: 0 15% 0 15%;
-}
-
 footer {
   background-color: #00cc00;
   height: 300px;
@@ -28,6 +24,10 @@ footer q {
   margin: 0 0 0 65%;
   padding: 5% 0% 2% 0%;
   width: 25%;
+}
+
+header, main {
+  padding: 0 15% 0 15%;
 }
 
 h1 {
@@ -182,4 +182,85 @@ ul {
   margin: -1% 0 0 75%;
   text-align: center;
   width: 10%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+
+  footer {
+    height: 150px;
+  }
+
+  footer p {
+    margin: -3% 0 0 70%;
+    width: 25%;
+  }
+
+  footer q {
+    margin-left: 40%;
+    width: 55%;
+  }
+
+  header, main {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  q {
+    font-size: 20px;
+  }
+
+  ul {
+    margin-left: 60%;
+  }
+
+  #imgLogo {
+    width: 15%;
+  }
+
+  #section01Principle h2, #section02Principle h2, #section03Principle h2 {
+    font-size: 17px;
+    width: 4%;
+    margin-left: 2%;
+  }
+
+  #section01Principle h3, #section02Principle h3, #section03Principle h3 {
+    font-size: 16px;
+    margin: -10% 0 0 10%;
+    width: 90%;
+  }
+
+  #section01Principle img, #section02Principle img, #section03Principle img {
+    margin: 5% 0 0 10%;
+  }
+
+  #section01Principle p, #section02Principle p, #section03Principle p {
+    margin: 2% 0 0 10%;
+    width: 80%;
+  }
+
+  #sectionQuote {
+    background-size: cover;
+    height: 110px;
+  }
+
+  #sectionQuote p {
+    margin: -3% 0 0 70%;
+    width: 30%;
+  }
+
+  #sectionQuote q {
+    padding-top: 6%;
+    width: 50%;
+  }
+
 }
