@@ -42,6 +42,7 @@ h2 {
   border-radius: 100%;
   color: #ffffff;
   padding: 1%;
+  position: relative;
   text-align: center;
   width: 3%;
 }
@@ -55,24 +56,16 @@ h3 {
 
 li {
   display: inline;
-  font-weight: bold;
 }
 
 q {
   font-size: 35px;
   font-style: italic;
-  font-weight: bold;
 }
 
 ul {
   list-style-type: none;
   margin-left: 85%;
-}
-
-.pPrinciples {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  width: 42%;
 }
 
 #imgLogo {
@@ -92,48 +85,78 @@ ul {
 }
 
 #section01Principle h3 {
-  margin-top: -6%;
-  margin-left: 15%;
+  margin: -6% 0 0 15%;
+}
+
+#section01Principle img, #section03Principle img {
+  margin: -24% 0 0 50%;
+  position: relative;
+  width: 45%;
 }
 
 #section01Principle img {
-  margin-left: 50%;
-  margin-top: -24%;
-  position: relative;
-  width: 45%;
   z-index: 0;
 }
 
 #section01Principle p {
   margin: 1% 0 0 15%;
   position: relative;
+  width: 42%;
   z-index: 1;
 }
 
 /* SECOND PRINCIPLE */
 
-#section02Principle {
+#section02Principle, #section03Principle {
   margin-top: 10%;
 }
 
 #section02Principle h2 {
   background-color: #ff0000;
+  margin-left: 35%;
+  z-index: 5;
 }
 
 #section02Principle h3 {
-  margin-left: 45%;
+  margin: -6% 0 0 42%;
+  z-index: 6;
 }
 
 #section02Principle img {
-  margin-top: -30%;
+  margin-top: -24%;
   position: relative;
+  width: 45%;
   z-index: 4;
+}
+
+#section02Principle p {
+  margin: 1% 0 0 42%;
+  position: relative;
+  width: 42%;
+  z-index: 7;
 }
 
 /* THIRD PRINCIPLE */
 
+#section03Principle {
+  margin-bottom: 10%;
+}
+
 #section03Principle h2 {
   background-color: #c92424;
+  margin-left: 8%;
+}
+
+#section03Principle h3 {
+  margin: -6% 0 0 14%;
+  width: 100%;
+}
+
+#section03Principle p {
+  margin: 1% 0 0 14%;
+  position: relative;
+  width: 42%;
+  z-index: 8;
 }
 
 /* FIRST BANNER */
